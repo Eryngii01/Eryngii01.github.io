@@ -533,3 +533,17 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+}
+
+p {
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
