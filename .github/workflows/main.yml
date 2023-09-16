@@ -15,11 +15,11 @@ jobs:
     # Use GitHub's checkout action to checkout code from the master branch
     - uses: actions/checkout@v4
 
-    # Set up .NET Core SDK 5.0.101
+    # Set up .NET Core SDK 7.0.302
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 5.0.101
+        dotnet-version: 7.0.302
 
     # Publish Blazor project to the release-folder
     - name: Publish .NET Core Project
