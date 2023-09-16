@@ -23,7 +23,7 @@ jobs:
 
     # Publish Blazor project to the release-folder
     - name: Publish .NET Core Project
-      run: gotnet publish -c Release -o release --nologo
+      run: dotnet publish -c Release -o release --nologo
 
     # Copy index.html to 404.html to serve the same file when a file is not found
     - name: Copy index.html to 404.html
